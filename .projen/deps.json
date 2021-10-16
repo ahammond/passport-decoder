@@ -1,12 +1,20 @@
 {
   "dependencies": [
     {
+      "name": "@aws-cdk/assert",
+      "type": "build"
+    },
+    {
+      "name": "@types/aws-lambda",
+      "type": "build"
+    },
+    {
       "name": "@types/jest",
       "type": "build"
     },
     {
       "name": "@types/node",
-      "version": "^10.17.0",
+      "version": "^14.17.0",
       "type": "build"
     },
     {
@@ -19,11 +27,23 @@
     },
     {
       "name": "aws-cdk",
-      "version": "^1.95.2",
+      "version": "2.0.0-rc.24",
+      "type": "build"
+    },
+    {
+      "name": "codecov",
+      "type": "build"
+    },
+    {
+      "name": "esbuild",
       "type": "build"
     },
     {
       "name": "eslint",
+      "type": "build"
+    },
+    {
+      "name": "eslint-config-prettier",
       "type": "build"
     },
     {
@@ -39,6 +59,10 @@
       "type": "build"
     },
     {
+      "name": "eslint-plugin-prettier",
+      "type": "build"
+    },
+    {
       "name": "jest",
       "type": "build"
     },
@@ -48,12 +72,20 @@
       "type": "build"
     },
     {
+      "name": "jsii-release",
+      "type": "build"
+    },
+    {
       "name": "json-schema",
       "type": "build"
     },
     {
       "name": "npm-check-updates",
       "version": "^11",
+      "type": "build"
+    },
+    {
+      "name": "prettier",
       "type": "build"
     },
     {
@@ -75,12 +107,25 @@
     },
     {
       "name": "@aws-cdk/assert",
-      "version": "^1.95.2",
+      "version": "2.0.0-rc.24",
       "type": "runtime"
     },
     {
-      "name": "@aws-cdk/core",
-      "version": "^1.95.2",
+      "name": "aws-cdk-lib",
+      "version": "2.0.0-rc.24",
+      "type": "runtime"
+    },
+    {
+      "name": "aws-lambda",
+      "type": "runtime"
+    },
+    {
+      "name": "constructs",
+      "version": "^10.0.5",
+      "type": "runtime"
+    },
+    {
+      "name": "source-map-support",
       "type": "runtime"
     }
   ],
